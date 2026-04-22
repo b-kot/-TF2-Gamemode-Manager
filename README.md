@@ -1,26 +1,34 @@
 # [TF2] Gamemode Manager
 Gamemode and Map Chooser, RTV.
 
+plugin also can be user for map categories
+
 Will be realesed soon...
 
-Read Full Installation guide:
+Gamemodes attributes:
+
+* weight (chance to appear in vote)
+* players (min. players to appear in vote)
+* maplist (gamemode specific maplist)
+* gm_config (optional, rewrite map configs, map-configs plugin required)
+
+Read full guide:
 
 AlliedModders link here
 
+Compiled with Sourcemod 1.13.0-7298, Metamod 1.12.0-1219
+
 ## Installation
-Download latest realese
 
-link here
+Full Installation instructions will come with realese file
 
-Install .smx plugin into your plugins folder
+Download latest realese: link here
 
-  ``tf\addons\sourcemod\plugins``
+Install .smx plugin into plugins folder: ``tf\addons\sourcemod\plugins``
 
-Install .cfg file into:
+Install .cfg file into: ``tf\cfg\sourcemod``
 
-  ``tf\cfg\sourcemod``
-
-if you want to use plugin's full functions, 
+Go to and download REQUIRED DEPENDENCIES and OPTIONAL DEPENDENCIES
 
 create next folders:
 
@@ -32,19 +40,21 @@ you will create exec .cfg files there:
 
   ``tf\cfg\sourcemod\gamemode_manager\loader``
 
-for Map configs (1.3) plugin
+for Map configs (1.3), create folder:
 
   ``tf\cfg\sourcemod\map-cfg``
 
-if you want to load plugins on specific gamemodes:
-
-tf\addons\sourcemod\plugins\disabled
+if you want to load plugins on specific gamemodes
 
 you must use ``disabled`` folder, it will be used for plugin loading
 
+``tf\addons\sourcemod\plugins\disabled``
+
 * storing plugins in ``disabled`` folder will prevent auto-loading them on mapchange
 
-## Setup
+## Setup instructions
+
+Full Setup instructions will come with realese file
 
 realese archive will come with examples only
 
