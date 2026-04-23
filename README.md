@@ -5,7 +5,7 @@ plugin also can be user for map categories
 
 Will be realesed soon...
 
-Gamemodes attributes:
+Gamemodes settings:
 
 * weight (chance to appear in vote)
 * players (min. players to appear in vote)
@@ -20,9 +20,9 @@ Compiled with Sourcemod 1.13.0-7298, Metamod 1.12.0-1219
 
 ## Installation
 
-Full Installation instructions will come with realese file
+Full Installation instructions will come with release file
 
-Download latest realese: link here
+Download latest release: link here
 
 Install .smx plugin into plugins folder: ``tf\addons\sourcemod\plugins``
 
@@ -56,7 +56,7 @@ you must use ``disabled`` folder, it will be used for plugin loading
 
 Full Setup instructions will come with realese file
 
-realese archive will come with examples only
+release archive will come with examples only
 
 you must configurate plugin by yourself
 
