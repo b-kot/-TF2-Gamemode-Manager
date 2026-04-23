@@ -3,7 +3,7 @@ Gamemode and Map Chooser, RTV.
 
 plugin also can be user for map categories
 
-Will be realesed soon...
+Will be released soon... (by May 2026)
 
 Gamemodes settings:
 
